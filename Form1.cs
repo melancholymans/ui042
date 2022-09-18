@@ -10,21 +10,13 @@ namespace ui042
             InitializeComponent();
         }
 
-        /// <summary>
         /// Enterキーで押された
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("OKボタンがクリックされました");
         }
 
-        /// <summary>
         /// ESCキーで押された
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("キャンセルボタンがクリックされました");
